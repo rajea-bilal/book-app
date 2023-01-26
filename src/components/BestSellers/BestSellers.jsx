@@ -27,7 +27,9 @@ function BestSellers() {
  
   return (
     <>
+     <h3 className="bestseller-title">New York Bestellers</h3>
     <section className="best-seller-container">
+      
         {bestSellers?.map((item) => { 
         return <Book result={item} key={item.primary_isbn10}/>
       })}
