@@ -142,7 +142,7 @@ ul {
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
-  padding: 0.375rem 2rem;
+  padding: 0.375rem 0.5rem;
   box-shadow: var(--shadow-1);
   transition: var(--transition);
   text-transform: capitalize;
@@ -186,8 +186,9 @@ ul {
   width: 90vw;
   max-width: var(--fixed-width);
   /* border-radius: var(--borderRadius); */
-  padding: 1rem 2.5rem; 
+  padding: 1rem 1.5rem; 
   margin: 2rem auto;
+  /* border: 1px solid red; */
 }
 .form-label {
   display: block;
@@ -290,7 +291,7 @@ main {
 
 .form-control {
   display: flex;
-  /* box-shadow: var(--shadow-1); */
+  justify-content: center;
   /* border: 1px solid red; */
 }
 
@@ -300,11 +301,12 @@ main {
   background: rgb(194, 66, 63);
   color: antiquewhite;
   font-size: 1rem;
+  flex: 1;
 }
 .search-input{
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  flex: 1;
+ 
 }
 
 /* Book styles */
@@ -350,12 +352,12 @@ main {
 .navbar {
   background:rgb(194, 66, 63);
   width: 100%;
+  padding: 1rem 0.5rem;
   position: fixed;
   z-index: 100;
   box-shadow: var(--shadow-1);
 }
 .header {
-  /* background:palegreen; */
   max-width: var(--max-width);
   height: 65px;
   margin: auto;
@@ -373,8 +375,17 @@ ul {
   gap: 2rem;
   color: antiquewhite;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 ul li {
   cursor: pointer;
 }
 
+@media screen and (min-width: 360px) {
+  .form {
+    width: 80vw;
+  }
+  .btn {
+    padding: 0rem 0.5rem;
+  }
+}
