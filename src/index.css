@@ -201,6 +201,7 @@ ul {
 .form-textarea {
   width: 100%;
   padding: 0.7rem 0.75rem;
+  font-size: 1.1rem;
   border-radius: var(--borderRadius);
   background: rgb(254, 237, 237);
   border: none;
@@ -352,7 +353,7 @@ main {
 .navbar {
   background:rgb(194, 66, 63);
   width: 100%;
-  padding: 1rem 0.5rem;
+  padding: 0.7rem 0.5rem;
   position: fixed;
   z-index: 100;
   box-shadow: var(--shadow-1);
