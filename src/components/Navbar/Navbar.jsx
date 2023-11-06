@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar">
       <header className="header">
         <section className="logo">
-          <h3>Gathering Wisdom</h3>
+          <h3 className="logoTitle">Gathering Wisdom</h3>
         </section>
         <ul>
           <li>Home</li>
