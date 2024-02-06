@@ -1,4 +1,7 @@
 # Gathering Wisdom Book App
+<img width="842" alt="Screenshot 2024-02-06 at 18 58 26" src="https://github.com/rajea-bilal/book-app/assets/93056794/9a9d9a9a-b5cc-4e31-947b-53bd20cf1c24">
+
+
 
 ## Overview
 
@@ -47,17 +50,18 @@ To run this project locally, follow these steps:
 
 3. **Install dependencies:**
 
-    ```bash
+  ```bash
     npm install
     ```
 
 4. **Run the development server:**
 
-    ```bash
+  ```bash
     npm run dev
     ```
 
 5. **Visit [http://localhost:3000](http://localhost:3000) in your browser to use the application locally.**
+
 
 
 
