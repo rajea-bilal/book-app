@@ -25,6 +25,7 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/rajea-bilal/book-app.git
+   ```
    
 2. **Navigate to the project folder:**
 
