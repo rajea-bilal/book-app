@@ -40,14 +40,24 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/rajea-bilal/book-app.git
-    ```
+   ```
    
 2. **Navigate to the project folder:**
 
-  ```bash
+    ```bash
     cd book-app
     ```
+3. **Install dependencies:**
 
+    ```bash
+    npm install
+    ```
+4. **Run the server:**
+
+    ```bash
+    npm run dev
+    ```
+5. **Visit [http://localhost:3000](http://localhost:3000) in your browser to use the application locally.**
 
 
 
